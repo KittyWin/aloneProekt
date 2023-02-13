@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h1{
+    font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+.kale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+
+  background-color: white;
+}
+
+.size {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-image: url(../img/financial-g1e048225e_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.curs {
+  width: 60%;
+  margin: 70px 0;
+}
+
+.container5 {
+  width: 80%;
+
+  margin: 0px auto;
+}
+
+.curs__curs h1 {
+  margin: 20px 0;
+  font-size: 41px;
+}
+
+.curs__curs h2 {
+  font-size: 20px;
+}
+
+.kalendar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+
+  margin: 30px 0;
+
+  gap: 10px;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+
+  margin-bottom: 10px;
+  padding: 5px 10px;
+
+  border-radius: 50px;
+
+  border: none;
+}
+
+.btn {
+  width: 50%;
+  height: 40px;
+
+  border-radius: 20px;
+  border: none;
+
+  margin: 20px 0 50px 0;
+
+  background-color: rgb(25, 0, 255);
+}
